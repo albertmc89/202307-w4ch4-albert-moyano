@@ -1,6 +1,8 @@
+import "./NewSlothForm.css";
+
 const NewSlothForm = (): React.ReactElement => {
   return (
-    <form className="new-form">
+    <form className="form">
       <label htmlFor="name">Name: </label>
       <input id="name" className="new-form__control" type="text" />
       <label htmlFor="Picture URL">Picture URL: </label>
